@@ -1,0 +1,18 @@
+type: planet
+ name: "terra"
+ displayName: "Terra"
+ description: "Un planeta parecido ala tierra, una nueva aventura te espera"
+ atmosphereColor: "#87CEEB"
+ atmosphereRadIn: 0.1
+ atmosphereRadOut: 0.2
+ bloom: true
+ defaultEnv: earth
+ defaultCore: coreXarnos
+ allowCampaignRules: true
+ autoAssignPlanet: true
+ data: {
+   sectors: [
+     {name: "", x: 0, y: 0},
+     {name: "", x: 1, y: 0}
+   ]
+}
