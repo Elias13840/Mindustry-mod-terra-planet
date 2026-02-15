@@ -1,0 +1,32 @@
+{
+   "type": "unit",
+   "name": "Conker-aereo",
+   "localizedName": "Conker-aereo",
+   "description": "Unidad área utilizada para ataques, es muy rapida y dispara balas sencillas",
+   "health": 150,
+   "speed": 5.0,
+   "hitSize": 9,
+   "armor": 0,
+   "engineSize": 3.2,
+   "engineOffset": 3.5,
+   "rotateSpeed": 9,
+   "accel": 0.11,
+   "drag": 0.06,
+   "mass": 1.1,
+   "flight": true,
+   "weapons": [
+     {
+       "type": "Weapon",
+       "name": "arma-conker",
+       "x": 4.2,
+       "y": -1.5,
+       "shootX": 2.8,
+       "shootY": 0,
+       "reload": 3,
+       "bullet": "proyectil-conker",
+       "rotate": true,
+       "shootCone": 20
+     }
+   ],
+   "sprite": "conker-aereo"
+}
