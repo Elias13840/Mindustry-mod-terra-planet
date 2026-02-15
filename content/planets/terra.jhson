@@ -1,0 +1,18 @@
+type: planet
+ name: "terra"
+ displayName: "Terra"
+ description: "Un planeta con atmósfera respirable, océanos y terrenos variados"
+ atmosphereColor: "#4287f5"
+ atmosphereRadIn: 0.05
+ atmosphereRadOut: 0.2
+ bloom: true
+ defaultEnv: earth
+ defaultCore: Núcleo-Star
+ allowCampaignRules: true
+ autoAssignPlanet: true
+ data: {
+   sectors: [
+     {name: "Valle Verde", x: 0, y: 0},
+     {name: "Costa Rocosa", x: 1, y: 0}
+   ]
+ }
