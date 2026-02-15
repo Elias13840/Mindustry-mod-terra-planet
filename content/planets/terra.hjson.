@@ -7,7 +7,7 @@ type: planet
  atmosphereRadOut: 0.2
  bloom: true
  defaultEnv: earth
- defaultCore: coreXarnos
+ defaultCore: Núcleo- Star
  allowCampaignRules: true
  autoAssignPlanet: true
  data: {
