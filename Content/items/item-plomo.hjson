@@ -1,0 +1,7 @@
+name: Plomo
+description: Material De Terra usado en producción de electrónicos y artilleria aérea.
+hardness: 1
+flammability: 0
+cost: 0.5
+color: 8C7FA9
+hiddenOnPlanets: [serpulo, erekir]
