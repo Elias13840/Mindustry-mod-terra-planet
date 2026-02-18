@@ -3,5 +3,5 @@ description: Usado en artillería basica y bloques básicos.
 hardness: 1
 flammability: 0
 cost: 0.5
-color: FFA500
+color: B87333
 hiddenOnPlanets: [serpulo, erekir]
