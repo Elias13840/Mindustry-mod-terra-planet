@@ -1,0 +1,7 @@
+name: Carbón
+description: Material usado en hornos, electricidad y como arma incendiaria.
+hardness: 1
+flammability: 5.0
+cost: 0.5
+color: 272727
+hiddenOnPlanets: [serpulo, erekir]
