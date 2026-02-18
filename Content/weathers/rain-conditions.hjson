@@ -1,0 +1,11 @@
+
+ rainIntensityMin: 0.7
+ lakeExpansionChance: 0.6
+ expansionRadius: 4
+ damageChance: 0.15
+ baseDamage: 5
+ 
+ 
+ expandableLakes: [
+   "water-lake"
+ ]
