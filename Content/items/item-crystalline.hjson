@@ -1,7 +1,9 @@
 name: Crystalline
 description: Usado en hornos, artillería de largo alcance y estructuras resistentes.
 hardness: 1
-flammability: 0
+flammability: 0f
+radiation :0.2f
+explosiveness:0f
 cost: 1.0
 color: 9C27B0
 hiddenOnPlanets: [serpulo, erekir]
