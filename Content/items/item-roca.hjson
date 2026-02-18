@@ -1,0 +1,7 @@
+name: Roca
+description: Usado en fabricas de alto peligro, también utilizado como artillería y aislante.
+hardness: 1
+flammability: -1
+cost: 1.0
+color: 707070
+hiddenOnPlanets: [serpulo, erekir]
