@@ -1,7 +1,9 @@
-name: Copper
+name: copper
 description: Usado en artillería basica y bloques básicos.
 hardness: 1
-flammability: 0
+flammability: 0f
+radiation :0f
+explosiveness:0f
 cost: 0.5
 color: B87333
 hiddenOnPlanets: [serpulo, erekir]
