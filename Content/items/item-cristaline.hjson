@@ -1,0 +1,7 @@
+name: Cristaline
+description: Usado en hornos, artillería de largo alcance y estructuras resistentes.
+hardness: 1
+flammability: 0
+cost: 1.0
+color: 9C27B0
+hiddenOnPlanets: [serpulo, erekir]
