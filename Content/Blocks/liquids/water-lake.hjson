@@ -1,0 +1,15 @@
+name: WaterLake
+ localizedName: Water Lake
+ description: Un líquido peligroso causante de derrotas de Núcleos en segundos, activa su peligridad cuando llueve.
+ type: LiquidBlock
+ liquid: water
+ update: true
+ canOverdrive: false
+ rotate: false
+ solid: false
+ opaque: false
+ buildCostMultiplier: 0
+ canExpandOnRain: true
+ maxExpansionRadius: 4
+ color: 2196F3
+ size: 1 
