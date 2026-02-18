@@ -1,7 +1,9 @@
-name: Coal
+name: coal
 description: Material usado en hornos, electricidad y como arma incendiaria.
 hardness: 1
-flammability: 5.0
+flammability: 0.6f
+explosiveness:0.0f
+radiation :0.0f
 cost: 0.5
 color: 272727
 hiddenOnPlanets: [serpulo, erekir]
