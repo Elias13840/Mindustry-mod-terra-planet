@@ -1,4 +1,4 @@
-name: arena
+name: sand
 description: Material base para crear otros materiales, también usado como artillería de unidades.
 hardness: 1
 flammability: 0
