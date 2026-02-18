@@ -1,7 +1,7 @@
 
  name: WaterLake
  localizedName: Water Lake
- description: Natural water pool that expands when it rains.
+ description: Un líquido peligroso causante de derrotas de Núcleos en segundos, activa su peligridad cuando llueve.
  type: LiquidBlock
  liquid: water
  update: true
