@@ -1,7 +1,9 @@
 name: Iron ore
 description: Inservible, amenos que sea pasado por un horno de Hierro.
 hardness: 1
-flammability: 0
+flammability: 0f
+radiation :0f
+explosiveness:0f
 cost: 1.0
 research:[item-plomo,item-cobre]
 color: 7F7F7F
