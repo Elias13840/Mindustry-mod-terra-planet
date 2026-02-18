@@ -1,7 +1,9 @@
 name: sand
 description: Material base para crear otros materiales, también usado como artillería de unidades.
 hardness: 1
-flammability: 0
+flammability: 0f
+radiation :0f
+explosiveness:0f
 cost: 0.5
 color: FFE6B3
 hiddenOnPlanets: [serpulo, erekir]
