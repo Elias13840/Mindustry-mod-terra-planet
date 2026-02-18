@@ -3,6 +3,5 @@ description: Material base para crear otros materiales, también usado como arti
 hardness: 1
 flammability: 0
 cost: 0.5
-research: item-carbón.hjson
 color: FFE6B3
 hiddenOnPlanets: [serpulo, erekir]
