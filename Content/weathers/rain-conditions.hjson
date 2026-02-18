@@ -4,7 +4,8 @@
  expansionRadius: 4
  damageChance: 0.15
  baseDamage: 5
- 
+
+applyDamageToAllStructures: true
  
  expandableLakes: [
    "water-lake"
