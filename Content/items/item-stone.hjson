@@ -1,9 +1,15 @@
-name: stone
-description: Usado en fabricas de alto peligro, también utilizado como artillería y aislante.
-hardness: 1
-flammability: -1f
-radiation : 0f
-explosiveness:0f
-cost: 1.0
-color: 707070
-hiddenOnPlanets: [serpulo, erekir]
+{
+  name: stone
+  localizedName: "stone"
+  description: "Usado en fabricas de alto peligro, también utilizado como artillería y aislante."
+  hardness: 1
+  flammability: -0f
+  radiation: 0f
+  explosiveness: 0f
+  cost: 0.5
+  color: "#707070"
+  hiddenOnPlanets: ["serpulo", "erekir"]
+  unlockable: true
+  alwaysUnlocked: false
+  ores: true
+}
