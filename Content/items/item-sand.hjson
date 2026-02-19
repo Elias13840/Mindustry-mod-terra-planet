@@ -1,9 +1,15 @@
-name: sand
-description: Material base para crear otros materiales, también usado como artillería de unidades.
-hardness: 1
-flammability: 0f
-radiation :0f
-explosiveness:0f
-cost: 0.5
-color: FFE6B3
-hiddenOnPlanets: [serpulo, erekir]
+{
+  name: sand
+  localizedName: "sand"
+  description: "Material base para crear otros materiales, también usado como artillería de unidades."
+  hardness: 1
+  flammability: 0f
+  radiation: 0f
+  explosiveness: 0f
+  cost: 0.5
+  color: "#F5E7B8"
+  hiddenOnPlanets: ["serpulo", "erekir"]
+  unlockable: true
+  alwaysUnlocked: false
+  ores: true
+}
