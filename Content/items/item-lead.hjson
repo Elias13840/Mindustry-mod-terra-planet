@@ -1,9 +1,15 @@
-name: lead
-description: Material De Terra usado en producción de electrónicos y artilleria aérea.
-hardness: 1
-flammability: 0f
-radiation :0f
-explosiveness:0f
-cost: 0.5
-color: 8C7FA9
-hiddenOnPlanets: [serpulo, erekir]
+{
+  name: lead
+  localizedName: "lead"
+  description: "Material De Terra usado en producción de electrónicos y artilleria aérea."
+  hardness: 1
+  flammability: 0f
+  radiation: 0f
+  explosiveness: 0f
+  cost: 0.5
+  color: "#8C7FA9"
+  hiddenOnPlanets: ["serpulo", "erekir"]
+  unlockable: true
+  alwaysUnlocked: false
+  ores: true
+}
