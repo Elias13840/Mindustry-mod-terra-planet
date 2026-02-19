@@ -1,9 +1,15 @@
-name: crystalline
-description: Usado en hornos, artillería de largo alcance y estructuras resistentes.
-hardness: 1
-flammability: 0f
-radiation :0.2f
-explosiveness:0f
-cost: 1.0
-color: 9C27B0
-hiddenOnPlanets: [serpulo, erekir]
+{
+  name: crystalline
+  localizedName: "cystalline"
+  description: "Usado en artillería de largo alcance, hornos, electricidad y bloques resistentes"
+  hardness: 1
+  flammability: 0f
+  radiation: 0f
+  explosiveness: 0f
+  cost: 0.5
+  color: "#9C27B0"
+  hiddenOnPlanets: ["serpulo", "erekir"]
+  unlockable: true
+  alwaysUnlocked: false
+  ores: true
+}
