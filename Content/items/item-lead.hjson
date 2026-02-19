@@ -1,6 +1,6 @@
 {
   name: lead
-  localizedName: "lead"
+  localizedName: "Plomo"
   description: "Material De Terra usado en producción de electrónicos y artilleria aérea."
   hardness: 1
   flammability: 0f
