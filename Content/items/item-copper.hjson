@@ -1,6 +1,6 @@
 {
   name: copper
-  localizedName: "copper"
+  localizedName: "Cobre"
   description: "Usado en artillería básica y bloques estructurales."
   hardness: 1
   flammability: 0f
