@@ -1,6 +1,6 @@
 {
   name: crystalline
-  localizedName: "cystalline"
+  localizedName: "cystaline"
   description: "Usado en artillería de largo alcance, hornos, electricidad y bloques resistentes"
   hardness: 1
   flammability: 0f
