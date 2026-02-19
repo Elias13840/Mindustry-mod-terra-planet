@@ -1,9 +1,15 @@
-name: coal
-description: Material usado en hornos, electricidad y como arma incendiaria.
-hardness: 1
-flammability: 0.6f
-explosiveness:0.0f
-radiation :0.0f
-cost: 0.5
-color: 272727
-hiddenOnPlanets: [serpulo, erekir]
+{
+  name: coal
+  localizedName: "coal"
+  description: "Material usado en hornos, electricidad y como arma incendiaria."
+  hardness: 1
+  flammability: 0.7f
+  radiation: 0f
+  explosiveness: 0f
+  cost: 0.5
+  color: "#272727"
+  hiddenOnPlanets: ["serpulo", "erekir"]
+  unlockable: true
+  alwaysUnlocked: false
+  ores: true
+}
