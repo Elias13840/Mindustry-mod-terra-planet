@@ -1,6 +1,6 @@
 {
   name: coal
-  localizedName: "coal"
+  localizedName: "Carbón"
   description: "Material usado en hornos, electricidad y como arma incendiaria."
   hardness: 1
   flammability: 0.7f
