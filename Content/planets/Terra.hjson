@@ -1,0 +1,78 @@
+{
+  name: terra
+  localizedName: "Terra"
+  description: "Un planeta casi idéntico a la Tierra, con biomas variados y recursos propios como piedra y arena."
+  
+  // Configuración básica
+  gravity: 0.9f          // Gravedad similar a la Tierra
+  atmosphereColor: "#7ec0ee"  // Color del cielo (azul claro)
+  skyColor: "#7ec0ee"
+  fogColor: "#d4e4f2"
+  fogDensity: 0.01f
+  lightColor: "#fff8e1"  // Color de la luz solar
+  waterColor: "#2196f3"  // Color del agua
+  
+  // Generación de terreno
+  generator: "normal"    // Tipo de generador de mundo
+  minHeight: -10
+  maxHeight: 50
+  heightScl: 60
+  noiseScale: 200
+  oreScale: 150
+  
+  // Biomas (ejemplos adaptados a Terra)
+  biomes: [
+    {
+      name: "pradera"
+      localizedName: "Pradera"
+      color: "#8bc34a"
+      elevation: 0.1f to 0.5f
+      oreMultiplier: 1.0f
+    },
+    {
+      name: "desierto"
+      localizedName: "Desierto"
+      color: "#f5e7b8"
+      elevation: 0.3f to 0.7f
+      oreMultiplier: 0.8f
+      // Aquí podés agregar generación de arena
+    },
+    {
+      name: "montaña"
+      localizedName: "Montaña"
+      color: "#707070"
+      elevation: 0.6f to 1.0f
+      oreMultiplier: 1.2f
+      // Generación de piedra
+    }
+  ]
+  
+  // Recursos que aparecen en el planeta
+  ores: [
+    {
+      block: "copper-ore"
+      chance: 0.8f
+      size: 15 to 30
+    },
+    {
+      block: "stone-ore"  // Debes crear el archivo de la mena de piedra también
+      chance: 0.6f
+      size: 10 to 25
+    },
+    {
+      block: "sand-ore"   // Mena de arena (crea su archivo en content/blocks)
+      chance: 0.5f
+      size: 20 to 35
+    }
+  ]
+  
+  // Bloques naturales del planeta
+  solids: [
+    {block: "grass", chance: 0.7f},
+    {block: "sand", chance: 0.4f},
+    {block: "stone", chance: 0.3f}
+  ]
+  
+  // Ocultar planetas nativos si es necesario
+  hidden: false
+}
