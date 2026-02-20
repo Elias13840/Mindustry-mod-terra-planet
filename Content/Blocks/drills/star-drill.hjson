@@ -1,0 +1,31 @@
+{
+   "type": "Drill",
+   "name": "Star-drill",
+   "localizedName": "Star drill",
+   "description": "Taladro principal y versátil que extrae múltiples recursos.",
+   "category": "production",
+   "size": 2,
+   "drillTime": 100,
+   "outputItems": [
+     {"item": "copper", "amount": 1},
+     {"item": "lead", "amount": 1},
+     {"item": "coal", "amount": 1},
+     {"item": "sand", "amount": 1}
+   ],
+   "drillableBlocks": [
+     "copper-ore",
+     "lead-ore",
+     "coal-ore",
+     "sand-block"
+   ],
+   "requirements": [
+     {"item": "copper", "amount": 15},
+     {"item": "lead", "amount": 30}
+   ],
+   "unlockRequirements": [
+     {"item": "copper", "amount": 20},
+     {"item": "lead", "amount": 40}
+   ],
+   "health": 300,
+   "texture": "blocks/drills/star-drill"
+}
