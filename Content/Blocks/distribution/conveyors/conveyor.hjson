@@ -1,0 +1,13 @@
+type: conveyors
+name: conveyor
+description: Tranporta objetos a una velocidad moderada.
+category: distribution
+alwaysUnlocked: true
+research: 
+speed: 1.5
+health: 45
+bridgeReplacement: 
+requirements: [
+  item
+]
+junctionReplacement: 05e-05-ferrinite-duct-
