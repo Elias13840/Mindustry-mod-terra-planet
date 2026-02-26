@@ -1,0 +1,24 @@
+type: block
+ name: diamond conveyor
+ description: "Cinta reforzada con diamante."
+ category: distribution
+ size: 1
+ health: 120
+ speed: 1.5
+ displaySpeed: 1.5
+ pushUnits: true
+ junctionReplacement: junction
+ bridgeReplacement: bridge-conveyor
+ buildCost: {
+   copper: 5
+   lead: 5
+   diamond: 2
+ }
+ variants: [
+   {internalName: diamond-conveyor-straight, input: north, output: south},
+   {internalName: diamond-conveyor-turn, input: north, output: east},
+   {internalName: diamond-conveyor-rev-turn, input: east, output: north},
+   {internalName: diamond-conveyor-t-junction, input: north, output: (east west)},
+   {internalName: diamond-conveyor-cross-junction, input: (north south), output: (east west)},
+   {internalName: diamond-conveyor-corner, input: (north west), output: (east south)}
+ ]
