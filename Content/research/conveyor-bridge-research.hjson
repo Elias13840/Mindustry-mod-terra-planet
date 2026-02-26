@@ -1,11 +1,11 @@
 type: research
-name: conveyor-brigde-research
+name: conveyor-bridge-research
 localizedName: "Desbloquear Cinta puente"
 description: "Permite construir la cinta puente."
 requirements: [
   {item: copper, amount: 300},
   {item: lead, amount: 500}
 ]
-unlocks: [conveyor-brigde]
+unlocks: [conveyor-bridge]
 category: distribution
 parent:[router-research]
