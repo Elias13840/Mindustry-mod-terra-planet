@@ -1,0 +1,26 @@
+type: block
+ name: launch-pad
+ description: "Envía recursos interplanetariamente en sectores desbloqueado, algunos sectores no tiene los materiales suficientes para su construcción."
+ category: distribution
+ size: 3x3
+ health: 200
+ launchPad: true
+ range: 5
+ itemCapacity: 30
+ hasPower: true
+ powerUse: 7.0
+ powerCapacity: 40
+ hasLiquids: true
+ liquidsCapacity: 100
+ consumes: [
+ {liquid: water, amount: 10.0 perSecond}]
+ buildCost: {
+   copper: 200
+   lead: 120
+   silicon: 80
+   iron: 200
+   crystalline: 150
+ }
+ variants: [
+   {internalName: launch-pad, input: any, output: any}
+ ]
