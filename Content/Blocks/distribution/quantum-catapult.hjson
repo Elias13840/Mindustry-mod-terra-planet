@@ -2,7 +2,7 @@ type: block
  name: quantum-catapult
  description: "Transporte de larga distancia, es como una torreta que lleva objetos a otra torreta similar."
  category: distribution
- size: 2x2
+ size: 3x3
  health: 150
  catapult: true
  range: 18
