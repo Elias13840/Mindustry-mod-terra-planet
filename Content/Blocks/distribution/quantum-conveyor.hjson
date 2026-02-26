@@ -10,11 +10,11 @@ type: block
  junctionReplacement: phase-junction
  bridgeReplacement: phase-bridge-conveyor
  phaseConveyor: true
- range: 6
+ range: 15
  
  powerUse: 0.5  
- powerCapacity: 2  // Capacidad de almacenamiento de energía pequeña (opcional pero recomendado)
- hasPower: true  // Habilita el sistema de energía en la cinta
+ powerCapacity: 2
+ hasPower: true
  buildCost: {
    lead: 2
    silicon: 2
