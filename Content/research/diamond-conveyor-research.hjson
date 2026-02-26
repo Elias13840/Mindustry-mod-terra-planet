@@ -1,0 +1,13 @@
+type: research
+name: diamond-conveyor-research
+localizedName: "Desbloquear Cinta De Diamante"
+description: "Permite construir la cinta de transporte de diamante."
+requirements: [
+  {item: copper, amount: 200},
+  {item: lead, amount: 150},
+  {item: diamond, amount: 400}
+]
+unlocks: [diamond-conveyor]
+category: distribution
+parent: [crystalline-conveyor-research]
+sectorRequirements: [krypton-research]
