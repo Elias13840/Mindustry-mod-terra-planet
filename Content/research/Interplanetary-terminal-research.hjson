@@ -1,13 +1,19 @@
 type: research
-name: conveyor-basic-research
-localizedName: "Desbloquear Cinta Básica"
-description: "Permite construir la cinta de transporte más simple."
+name: interplanetary-terminal-research
+localizedName: "Desbloquear Terminal Interplanetario"
+description: "Permite construir un terminal interplanetario."
 requirements: [
-  {item: copper, amount: 30},
-  {item: lead, amount: 100}
-  
+  {item: copper, amount: 8000},
+  {item: lead, amount: 5000},
+  {item: silicon, amount: 5300},
+  {item: uranium, amount: 1500},
+  {item: iron, amount: 8000},
+  {item: glass, amount: 4000},
+  {item: graphite, amount: 5000},
+  {item: diamond, amount: 4000},
+  {item: mercuranium, amount: 5000}
 ]
-unlocks: [conveyor-basic]
-category: distribution
+unlocks: [interplanetary-terminal]
+category: effect
 Parents: [launch-pad-research, landing-pad-research]
 sectorRequirements: [wind-sea-research, Energy-Production-Complex-research, Rainy Coast, Interplanetary Launch Terminal]
