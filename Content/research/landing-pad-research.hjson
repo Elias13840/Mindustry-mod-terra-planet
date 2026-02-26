@@ -8,7 +8,7 @@ requirements: [
   {item: silicon, amount: 2000},
   {item: iron, amount: 1700
 ]
-unlocks: [conveyor-basic]
-category: distribution
+unlocks: [landing-pad]
+category: effect
 parent: [unloader-research]
 sectorRequirements: [wind-sea-research, Energy-Production-Complex-research, Rainy Coast]
