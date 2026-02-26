@@ -6,7 +6,10 @@ requirements: [
   {item: copper, amount: 300},
   {item: lead, amount: 150},
   {item: silicon, amount: 500}, 
-  {item: 
+  {item: diamond, amount: 300},
+  {item: uranium, amount: 200}
 ]
-unlocks: [conveyor-basic]
+unlocks: [quantum-conveyor]
 category: distribution
+parents: [bridge-conveyor-research, crystalline-conveyor-research, diamond-conveyor-research]
+sectorRequeriment: [Nuclear Production Complex]
