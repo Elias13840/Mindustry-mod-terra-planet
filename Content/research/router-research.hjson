@@ -8,4 +8,4 @@ requirements: [
 ]
 unlocks: [router]
 category: distribution
-parents: [basic-conveyor-research]
+parent: [basic-conveyor-research]
