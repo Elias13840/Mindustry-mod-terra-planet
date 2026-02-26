@@ -27,6 +27,8 @@ type: block
    iron: 3000
    glass: 900
    graphite: 600
+   diamond: 500
+   mercuranium: 800
  }
  variants: [
    {internalName: interplanetary-terminal, input: any, output: any}
