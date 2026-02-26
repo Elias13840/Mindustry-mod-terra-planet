@@ -1,0 +1,19 @@
+type: block
+ name: unloader
+ description: "Descarga recursos de bloques conctados a el."
+ category: effect
+ size: 1x1
+ health: 60
+ unloader: true
+ speed: 1.5
+ displaySpeed: 1.5
+ itemCapacity: 4
+ range: 2
+ buildCost: {
+   copper: 4
+   lead: 3
+   silicon: 2
+ }
+ variants: [
+   {internalName: unloader, input: any, output: any}
+ ]
