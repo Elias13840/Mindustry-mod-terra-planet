@@ -1,0 +1,11 @@
+type: research
+name: router-research
+localizedName: "Desbloquear enrutador"
+description: "Permite construir el enrutador."
+requirements: [
+  {item: copper, amount: 140},
+  {item: lead, amount: 130}
+]
+unlocks: [router]
+category: distribution
+parents: [basic-conveyor-research]
