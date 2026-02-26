@@ -1,0 +1,12 @@
+type: research
+name: quantum-conveyor-research
+localizedName: "Desbloquear Cinta Cuantica"
+description: "Permite construir la cinta cuantica."
+requirements: [
+  {item: copper, amount: 300},
+  {item: lead, amount: 150},
+  {item: silicon, amount: 500}, 
+  {item: 
+]
+unlocks: [conveyor-basic]
+category: distribution
