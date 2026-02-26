@@ -1,9 +1,0 @@
-conveyor-node: {
-name: conveyor
-description: "Desbloquea la cinta transportadora."
-research-cost: [
-  copper: 30
-  ]
-parent: core-star
-unlocks: [conveyor]  
-  }
