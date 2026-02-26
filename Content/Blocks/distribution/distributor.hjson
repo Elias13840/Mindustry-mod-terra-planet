@@ -1,0 +1,18 @@
+type: block
+ name: distributor
+ description: "Distribuye recursos equitativamente entre hasta 7 estructuras conectadas en su rango."
+ category: distribution
+ size: 2x2
+ health: 120
+ distributor: true
+ range: 7
+ speed: 1.2
+ displaySpeed: 1.2
+ itemCapacity: 8
+ buildCost: {
+   lead: 8
+   copper: 10
+ }
+ variants: [
+   {internalName: distributor, input: any, output: any}
+ ]
