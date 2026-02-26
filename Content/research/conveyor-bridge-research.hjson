@@ -1,6 +1,6 @@
 type: research
 name: conveyor-bridge-research
-localizedName: "Desbloquear Cinta puente"
+localizedName: "Desbloquear Cinta Puente"
 description: "Permite construir la cinta puente."
 requirements: [
   {item: copper, amount: 300},
