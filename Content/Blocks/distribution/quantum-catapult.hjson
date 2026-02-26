@@ -1,0 +1,25 @@
+type: block
+ name: quantum-catapult
+ description: "Transporte de larga distancia, es como una torreta que lleva objetos a otra torreta similar."
+ category: distribution
+ size: 2x2
+ health: 150
+ catapult: true
+ range: 18
+ speed: 6
+ displaySpeed: 6
+ hasPower: true
+ powerUse: 2.0
+ powerCapacity: 5
+ phaseConveyor: true
+ requiresLineOfSight: false
+ buildCost: {
+   lead: 120
+   silicon: 150
+   graphite: 100
+   carbon: 50
+   iron: 170
+ }
+ variants: [
+   {internalName: quantum-catapult, input: any, output: any}
+ ]
