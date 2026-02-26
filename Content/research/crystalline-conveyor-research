@@ -1,0 +1,13 @@
+type: research
+name: crystalline-conveyor-research
+localizedName: "Desbloquear Transportadora De Crictaline"
+description: "Permite construir la cinta de transporte de crictaline."
+requirements: [
+  {item: copper, amount: 300},
+  {item: lead, amount: 150},
+  {item: crystalline, amount: 150}
+]
+unlocks: [crystalline-conveyor]
+category: distribution
+parent: [basic-conveyor-research]
+sectorRequirement: [wart-forest-research]
