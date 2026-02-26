@@ -1,0 +1,19 @@
+type: block
+ name: conveyor-bridge
+ description: "Conecta puntos de transporte a distancia, cruzando espacios vacíos o terrenos irregulares."
+ category: distribution
+ size: 1x1
+ health: 100
+ conveyor: true
+ bridge: true
+ adjustableLength: true
+ range: 5
+ speed: 1.5
+ itemCapacity: 2
+ buildCost: {
+   copper: 15
+   lead: 10
+ }
+ variants: [
+   {internalName: conveyor-bridge, input: any, output: any}
+ ]
