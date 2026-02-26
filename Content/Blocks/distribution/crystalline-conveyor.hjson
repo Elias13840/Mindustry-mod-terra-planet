@@ -1,1 +1,24 @@
-
+type: block
+ name: crystalline-conveyor
+ description: "Transporta objetos a velocidad rapida."
+ category: distribution
+ size: 1
+ health: 60  
+ speed: 1.5  
+ displaySpeed: 2.0
+ pushUnits: true
+ junctionReplacement: junction
+ bridgeReplacement: bridge-conveyor
+ buildCost: {
+   copper: 1
+   lead: 1
+  cyatalline: 2
+ }
+ variants: [
+   {internalName: crystalline-conveyor-straight, input: north, output: south},
+   {internalName: crystalline-conveyor-turn, input: north, output: east},
+   {internalName: crystalline-conveyor-rev-turn, input: east, output: north},
+   {internalName: crystalline-conveyor-t-junction, input: north, output: (east west)},
+   {internalName: crystalline-conveyor-cross-junction, input: (north south), output: (east west)},
+   {internalName: crystalline-conveyor-corner, input: (north west), output: (east south)}
+ ]
