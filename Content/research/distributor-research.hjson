@@ -1,0 +1,12 @@
+type: research
+name: distribution-research
+localizedName: "Desbloquear Distribuidora"
+description: "Permite construir la Distribuidora."
+requirements: [
+  {item: copper, amount: 300},
+  {item: lead, amount: 200},
+  {item: stone, amount: 200}
+]
+unlocks: [distributor]
+category: distribution
+parents: [router-research]
