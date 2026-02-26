@@ -7,6 +7,6 @@ requirements: [
   {item: lead, amount: 200},
   {item: silicon, amount: 80}
 ]
-unlocks: [conveyor-basic]
+unlocks: [sorter]
 category: distribution
 parents: [router-research, conveyor-bridge-research]
