@@ -1,0 +1,12 @@
+type: research
+name: conveyor-basic-research
+localizedName: "Desbloquear Plataforma De Lanzamiento"
+description: "Permite construir una plataforma de lanzamiento."
+requirements: [
+  {item: copper, amount: 1500},
+  {item: lead, amount: 1500}
+]
+unlocks: [launch-pad]
+category: effect
+parent: [unloader-research]
+sectorRequirements: [wind-sea-research, Energy-Production-Complex-research, Rainy Coast]
