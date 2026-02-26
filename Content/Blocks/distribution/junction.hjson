@@ -1,0 +1,17 @@
+type: block
+ name: junction
+ description: "Conecta múltiples rutas de transporte, permitiendo el paso de recursos sin interrumpir el flujo."
+ category: distribution
+ size: 1x1
+ health: 40
+ junction: true
+ speed: 1.0
+ displaySpeed: 1.0
+ itemCapacity: 1
+ buildCost: {
+   copper: 2
+   lead: 1
+ }
+ variants: [
+   {internalName: junction, input: any, output: any}
+ ]
