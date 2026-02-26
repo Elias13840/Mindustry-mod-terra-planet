@@ -6,6 +6,6 @@ requirements: [
   {item: copper, amount: 300},
   {item: lead, amount: 150}
 ]
-unlocks: [conveyor-basic]
+unlocks: [junction]
 category: distribution
 parent: [distributor-research]
