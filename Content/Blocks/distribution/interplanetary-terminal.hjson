@@ -1,0 +1,33 @@
+type: block
+ name: interplanetary-terminal
+ description: "Capaz de enviar miles de recursos a sectores cercanos y adyacentes."
+ category: effect
+ size: 8x8
+ health: 700
+ launchPad: true
+ itemCapacity: 5000
+ allowAllItems: true
+ allowUncapturedSectors: true
+ maxSectorDistance: -1
+ range: 10
+ boostMultiplier: 1.5
+ hasPower: true
+ powerUse: 10.0
+ powerCapacity: 60
+ hasLiquids: true
+ liquidCapacity: 100
+ consumes: [
+   {liquid: cryogenics, amount: 9.0 perSecond}
+ ]
+ buildCost: {
+   copper: 2000
+   lead: 1800
+   silicon: 1000
+   uranium: 900
+   iron: 3000
+   glass: 900
+   graphite: 600
+ }
+ variants: [
+   {internalName: interplanetary-terminal, input: any, output: any}
+ ]
