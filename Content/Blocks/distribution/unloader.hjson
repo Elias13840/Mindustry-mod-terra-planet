@@ -13,6 +13,7 @@ type: block
    copper: 4
    lead: 3
    silicon: 2
+   crystalline: 5
  }
  variants: [
    {internalName: unloader, input: any, output: any}
