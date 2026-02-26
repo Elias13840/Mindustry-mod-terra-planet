@@ -9,4 +9,4 @@ requirements: [
 ]
 unlocks: [distributor]
 category: distribution
-parents: [router-research]
+parent: [router-research]
