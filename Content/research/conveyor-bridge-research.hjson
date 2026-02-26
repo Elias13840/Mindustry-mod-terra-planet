@@ -8,4 +8,4 @@ requirements: [
 ]
 unlocks: [conveyor-bridge]
 category: distribution
-parent:[router-research]
+parent: [router-research]
