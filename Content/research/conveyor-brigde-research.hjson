@@ -8,4 +8,4 @@ requirements: [
 ]
 unlocks: [conveyor-brigde]
 category: distribution
-parent[router-research]
+parent:[router-research]
