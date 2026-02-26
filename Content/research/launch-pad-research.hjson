@@ -4,7 +4,9 @@ localizedName: "Desbloquear Plataforma De Lanzamiento"
 description: "Permite construir una plataforma de lanzamiento."
 requirements: [
   {item: copper, amount: 1500},
-  {item: lead, amount: 1500}
+  {item: lead, amount: 3000},
+  {item: silicon, amount: 4000},
+  {item: crystalline, amount: 4000},
 ]
 unlocks: [launch-pad]
 category: effect
