@@ -9,4 +9,4 @@ requirements: [
 ]
 unlocks: [conveyor-basic]
 category: distribution
-parents: [router-research, conveyor-brigde-research]
+parents: [router-research, conveyor-bridge-research]
