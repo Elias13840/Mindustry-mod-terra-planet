@@ -1,6 +1,6 @@
 type: research
 name: router-research
-localizedName: "Desbloquear enrutador"
+localizedName: "Desbloquear Enrutador"
 description: "Permite construir el enrutador."
 requirements: [
   {item: copper, amount: 140},
