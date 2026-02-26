@@ -1,0 +1,22 @@
+type: block
+ name: landing-pad
+ description: "Recibe recursos enviados interplanetariamente desde plataformas de lanzamiento."
+ category: effect
+ size: 3x3
+ health: 220
+ landingPad: true
+ range: 5
+ itemCapacity: 35
+ hasPower: true
+ powerUse: 1.0
+ powerCapacity: 35
+ buildCost: {
+   copper: 140
+   lead: 130
+   silicon: 70
+   crystalline: 100
+   iron: 150
+ }
+ variants: [
+   {internalName: landing-pad, input: any, output: any}
+ ]
