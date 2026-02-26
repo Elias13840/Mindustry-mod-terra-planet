@@ -1,0 +1,22 @@
+type: block
+ name: basic-conveyor
+ description: "Transporta objetos a velocidad moderada."
+ category: distribution
+ size: 1
+ health: 40
+ speed: 1.0
+ displaySpeed: 1.0
+ pushUnits: true
+ junctionReplacement: junction
+ bridgeReplacement: bridge-conveyor
+ buildCost: {
+   copper: 1
+     }
+variants: [
+  {internalName: basic-conveyor-straight, input: north, output: south},
+  {internalName: basic-conveyor-turn, input: north, output: east},
+  {internalName: basic-conveyor-rev-turn, input: east, output: north},
+  {internalName: basic-conveyor-t-junction, input: north, output: (east west)},
+  {internalName: basic-conveyor-cross-junction, input: (north south), output: (east west)},
+  {internalName: basic-conveyor-corner, input: (north west), output: (east south)}
+]
