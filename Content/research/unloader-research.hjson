@@ -11,3 +11,4 @@ requirements: [
 unlocks: [unloader]
 category: distribution
 parents: [sorter-research, conveyor-bridge-research]
+sectorRequirement: [wart-forest]
