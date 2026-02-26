@@ -1,0 +1,12 @@
+type: research
+name: sorter-research
+localizedName: "Desbloquear Clasificador"
+description: "Permite construir el clasificador."
+requirements: [
+  {item: copper, amount: 100},
+  {item: lead, amount: 200},
+  {item: silicon, amount: 80}
+]
+unlocks: [conveyor-basic]
+category: distribution
+parents: [router-research, conveyor-brigde-research]
