@@ -7,7 +7,7 @@ requirements: [
   {item: lead, amount: 300},
   {item: graphite, amount: 800},
   {item: carbon, amount: 500},
-  {
+  {item: iron, amount: 800}
 ]
 unlocks: [quantum-catapult]
 category: distribution
