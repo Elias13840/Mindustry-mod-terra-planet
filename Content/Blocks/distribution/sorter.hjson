@@ -1,0 +1,18 @@
+type: block
+ name: sorter
+ description: "Clasifica y dirige recursos específicos a la ruta correcta."
+ category: distribution
+ size: 1x1
+ health: 50
+ sorter: true
+ speed: 1.2
+ displaySpeed: 1.2
+ itemCapacity: 2
+ filterSlots: 1
+ buildCost: {
+   copper: 5
+   lead: 5
+ }
+ variants: [
+   {internalName: sorter, input: any, output: any}
+ ]
