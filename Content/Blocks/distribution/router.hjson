@@ -1,0 +1,17 @@
+type: block
+ name: router
+ description: "Gestiona objetos en 3 direcciones, util para estrategias y fabricas."
+ category: distribution
+ size: 1x1
+ health: 60
+ router: true
+ speed: 1.0
+ displaySpeed: 1.0
+ itemCapacity: 3
+ buildCost: {
+   lead: 1
+   copper: 2
+ }
+ variants: [
+   {internalName: router, input: any, output: any}
+ ]
