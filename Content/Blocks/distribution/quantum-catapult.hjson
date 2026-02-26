@@ -5,11 +5,11 @@ type: block
  size: 3x3
  health: 150
  catapult: true
- range: 18
+ range: 50
  speed: 6
  displaySpeed: 6
  hasPower: true
- powerUse: 2.0
+ powerUse: 7.0
  powerCapacity: 5
  phaseConveyor: true
  requiresLineOfSight: false
