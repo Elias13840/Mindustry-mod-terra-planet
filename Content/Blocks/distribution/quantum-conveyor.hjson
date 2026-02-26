@@ -1,8 +1,10 @@
 type: block
+ name: quantum-conveyor
+ description: "Transporta objetos a rapida velocidad, nesecita energía."
  category: distribution
  size: 1
  health: 80
- speed: 0
+ speed: 10
  displaySpeed: 0
  pushUnits: true
  junctionReplacement: phase-junction
