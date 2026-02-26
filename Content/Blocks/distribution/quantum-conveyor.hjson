@@ -1,0 +1,30 @@
+type: block
+ category: distribution
+ size: 1
+ health: 80
+ speed: 0
+ displaySpeed: 0
+ pushUnits: true
+ junctionReplacement: phase-junction
+ bridgeReplacement: phase-bridge-conveyor
+ phaseConveyor: true
+ range: 6
+ 
+ powerUse: 0.5  
+ powerCapacity: 2  // Capacidad de almacenamiento de energía pequeña (opcional pero recomendado)
+ hasPower: true  // Habilita el sistema de energía en la cinta
+ buildCost: {
+   lead: 2
+   silicon: 2
+   copper: 6
+   diamond: 2
+   uranium: 1
+ }
+ variants: [
+   {internalName: quantum-conveyor-straight, input: north, output: south},
+   {internalName: quantum-conveyor-turn, input: north, output: east},
+   {internalName: quantum-conveyor-rev-turn, input: east, output: north},
+   {internalName: quantum-conveyor-t-junction, input: north, output: (east west)},
+   {internalName: quantum-conveyor-cross-junction, input: (north south), output: (east west)},
+   {internalName: quantum-conveyor-corner, input: (north west), output: (east south)}
+ ]
