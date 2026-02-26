@@ -1,0 +1,11 @@
+type: research
+name: junction-research
+localizedName: "Desbloquear Cruce"
+description: "Permite construir el cruce."
+requirements: [
+  {item: copper, amount: 300},
+  {item: lead, amount: 150}
+]
+unlocks: [conveyor-basic]
+category: distribution
+parent: [distributor-research]
