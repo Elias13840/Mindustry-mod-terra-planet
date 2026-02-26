@@ -1,0 +1,13 @@
+type: research
+name: conveyor-basic-research
+localizedName: "Desbloquear Cinta Básica"
+description: "Permite construir la cinta de transporte más simple."
+requirements: [
+  {item: copper, amount: 30},
+  {item: lead, amount: 100}
+  
+]
+unlocks: [conveyor-basic]
+category: distribution
+Parents: [launch-pad-research, landing-pad-research]
+sectorRequirements: [wind-sea-research, Energy-Production-Complex-research, Rainy Coast, Interplanetary Launch Terminal]
