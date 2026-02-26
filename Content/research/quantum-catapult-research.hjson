@@ -1,0 +1,14 @@
+type: research
+name: quantum-catapult-research
+localizedName: "Desbloquear Catapulta Cuantica"
+description: "Permite construir una catapulta cuantica."
+requirements: [
+  {item: copper, amount: 300},
+  {item: lead, amount: 300},
+  {item: graphite, amount: 800},
+  {item: carbon, amount: 500},
+  {
+]
+unlocks: [quantum-catapult]
+category: distribution
+parent: [quantum-conveyor-research]
