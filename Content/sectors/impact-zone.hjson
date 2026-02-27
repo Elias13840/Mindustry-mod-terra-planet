@@ -1,0 +1,16 @@
+{
+   name: "impact zone"
+   planet: "terra"
+   position: [1, 1]
+   difficulty: 1
+   captureWave: 10
+   requires: []
+   unlocks: []
+   startingItems: {
+     copper: 500,
+     lead: 500
+   }
+   rules: {
+     allowWaterUnits: false
+   }
+ }
