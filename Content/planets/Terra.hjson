@@ -2,52 +2,61 @@
   name: terra
   localizedName: "Terra"
   description: "Un planeta casi idéntico a la Tierra, con biomas variados y recursos propios como piedra y arena."
-  
-  // Configuración básica
-  gravity: 0.9f          // Gravedad similar a la Tierra
-  atmosphereColor: "#7ec0ee"  // Color del cielo (azul claro)
+
+  gravity: 0.9f          
+  atmosphereColor: "#7ec0ee" 
   skyColor: "#7ec0ee"
   fogColor: "#d4e4f2"
   fogDensity: 0.01f
-  lightColor: "#fff8e1"  // Color de la luz solar
-  waterColor: "#2196f3"  // Color del agua
+  lightColor: "#fff8e1" 
+  waterColor: "#2196f3"  
   
-  // Generación de terreno
-  generator: "normal"    // Tipo de generador de mundo
+  generator: "normal"   
   minHeight: -10
   maxHeight: 50
   heightScl: 60
   noiseScale: 200
   oreScale: 150
   
-  // Biomas (ejemplos adaptados a Terra)
+
   biomes: [
     {
-      name: "pradera"
-      localizedName: "Pradera"
+      name: "grassland"
+      localizedName: "grassland"
       color: "#8bc34a"
       elevation: 0.1f to 0.5f
       oreMultiplier: 1.0f
+      resources: {
+      copper: 0.8f
+      lead: 0.7f
+      coal: 0.5f
+      }
     },
     {
-      name: "desierto"
-      localizedName: "Desierto"
+      name: "desert"
+      localizedName: "desert"
       color: "#f5e7b8"
       elevation: 0.3f to 0.7f
       oreMultiplier: 0.8f
-      // Aquí podés agregar generación de arena
+      resources: {
+      sand: 1.0f
+      
     },
     {
       name: "montaña"
       localizedName: "Montaña"
-      color: "#707070"
-      elevation: 0.6f to 1.0f
+      color: "#A9A9A9"
+      elevation: 1.0f to 1.2f
       oreMultiplier: 1.2f
-      // Generación de piedra
+      
     }
-  ]
-  
-  // Recursos que aparecen en el planeta
+    {
+      name: "lagoon"
+      localizedName: "lagoon"
+      elevation: -0.5 to -1.0
+      water:true
+      waterColor: "#87CEEB"
+    }
   ores: [
     {
       block: "copper-ore"
@@ -66,13 +75,11 @@
     }
   ]
   
-  // Bloques naturales del planeta
   solids: [
     {block: "grass", chance: 0.7f},
     {block: "sand", chance: 0.4f},
     {block: "stone", chance: 0.3f}
   ]
   
-  // Ocultar planetas nativos si es necesario
   hidden: false
 }
