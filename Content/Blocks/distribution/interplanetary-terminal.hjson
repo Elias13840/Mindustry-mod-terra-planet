@@ -2,7 +2,7 @@ type: block
  name: interplanetary-terminal
  description: "Capaz de enviar miles de recursos a sectores cercanos y adyacentes."
  category: effect
- size: 8x8
+ size: 8
  health: 700
  launchPad: true
  itemCapacity: 5000
