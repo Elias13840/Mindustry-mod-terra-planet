@@ -2,7 +2,7 @@ type: block
  name: launch-pad
  description: "Envía recursos interplanetariamente en sectores desbloqueado, algunos sectores no tiene los materiales suficientes para su construcción."
  category: distribution
- size: 3x3
+ size: 4
  health: 200
  launchPad: true
  range: 5
