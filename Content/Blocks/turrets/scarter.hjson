@@ -1,0 +1,39 @@
+name: "scarter"
+ localizedName: "scarter"
+ description: "Torreta área, dispara proyectiles a velocidades extremas para derrotar al enemigo aéreo."
+ category: turret
+ size: 2
+ health: 300
+ range: 25
+ reload: 1
+ inaccuracy: 1.5
+ shootCone: 25
+ ammoUseEffect: shootMedium
+ shootSound: shootMedium
+ liquidCapacity: 30
+ coolant: true
+ coolantMultiplier: 0.8
+ ammoTypes: {
+   metaglass: {
+     type: bullet
+     damage: 30
+     speed: 10
+     lifetime: 12
+     splashDamage: 4
+     splashDamageRadius: 2.5
+     pierce: 5
+   }
+   lead: {
+     type: bullet
+     damage: 20
+     speed: 10
+     lifetime: 13
+     splashDamage: 3
+     splashDamageRadius: 2
+     pierce: 4
+   }
+ }
+ requirements: [
+   {item: "copper", amount: 45},
+   {item: "lead", amount: 40}
+ ]
