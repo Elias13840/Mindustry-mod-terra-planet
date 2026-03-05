@@ -21,6 +21,7 @@ name: "quad"
      lifetime: 12
      splashDamage: 4
      splashDamageRadius: 2.5
+     pierce: 2
    }
    graphite: {
      type: bullet
@@ -29,7 +30,7 @@ name: "quad"
      lifetime: 13
      splashDamage: 3
      splashDamageRadius: 2
-     pierce: 1
+     pierce: 2
    }
    iron: {
      type: bullet
@@ -38,6 +39,7 @@ name: "quad"
      lifetime: 11
      splashDamage: 7
      splashDamageRadius: 3.5
+     pierce: 7
    }
  }
  requirements: [
