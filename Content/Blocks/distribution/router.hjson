@@ -2,7 +2,7 @@ type: block
  name: router
  description: "Gestiona objetos en 3 direcciones, util para estrategias y fabricas."
  category: distribution
- size: 1x1
+ size: 1
  health: 60
  router: true
  speed: 1.0
