@@ -2,7 +2,7 @@ type: block
  name: distributor
  description: "Distribuye recursos equitativamente entre hasta 7 estructuras conectadas en su rango."
  category: distribution
- size: 2x2
+ size: 2
  health: 120
  distributor: true
  range: 7
