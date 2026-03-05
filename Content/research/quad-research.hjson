@@ -1,0 +1,13 @@
+name: "investigación torreta quad"
+localizedName: "Investigación: Torreta Quad"
+description: "Desbloquea la Torreta Multimunición, capaz de usar cobre, grafito e hierro como munición."
+
+type: block
+block: quad
+
+requirements: [
+  {item: "copper", amount: 100},
+  {item: "lead", amount: 75}
+]
+
+researchCostMultiplier: 1.0
