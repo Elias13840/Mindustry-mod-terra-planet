@@ -1,1 +1,48 @@
-
+name: "Force"
+ localizedName: "Force"
+ description: "Lanza cupulas de balas que causan daños en área."
+ category: turret
+ size: 2
+ health: 300
+ range: 30
+ reload: 3
+ inaccuracy: 1.5
+ shootCone: 10
+ ammoUseEffect: shootSmall
+ shootSound: shootMedium
+ liquidCapacity: 15
+ coolant: true
+ coolantMultiplier: 0.8
+ ammoTypes:{
+   copper: {
+     type: bullet
+     damage: 8
+     speed: 9
+     lifetime: 12
+     splashDamage: 4
+     splashDamageRadius: 2.5
+     pierce: 2
+   }
+   graphite: {
+     type: bullet
+     damage: 15
+     speed: 5
+     lifetime: 13
+     splashDamage: 3
+     splashDamageRadius: 2
+     pierce: 2
+   }
+   iron: {
+     type: bullet
+     damage: 20
+     speed: 8
+     lifetime: 11
+     splashDamage: 7
+     splashDamageRadius: 3.5
+     pierce: 7
+   }
+ }
+ requirements: [
+   {item: "copper", amount: 15},
+   {item: "lead", amount: 15}
+ 
